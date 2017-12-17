@@ -1,0 +1,41 @@
+.notfy{
+	position: absolute;z-index: 1000; margin-right: 100px; margin-left:500px;
+}
+
+#hideThis{
+	-moz-animation: hide 0s ease-in 5s forwards;
+	-webkit-animation:hide 0s ease-in 5s forwards;
+	-o-animation:hide 0s ease-in 5s forwards;
+	animation: hide 0s ease-in 5s forwards;
+	-webkit-animation-fill-mode:forwards;
+	animation-fill-mode: forwards;
+}
+
+@keyframes hide{
+	 from {
+    opacity: 1;
+  }
+	to{
+	opacity: 0;
+    transform: translate3d(0, -100%, 0);
+	}
+}
+@-webkit-key hide{
+	to{
+		width: 0;
+		height: 0;
+		visibility: hidden;
+	}
+}
+
+          .userdv{
+    padding-left: 10px;
+    padding-right: 3px;
+  	box-shadow: 0px 1px 20px 0px teal;
+}
+.structdv{
+	box-shadow: 0px 1px 10px 0px teal;
+}
+	.touch2:hover{
+    border-bottom:2px solid orange;
+    }
